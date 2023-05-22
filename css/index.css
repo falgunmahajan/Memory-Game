@@ -22,3 +22,11 @@ body{
     box-shadow: 3px 5px grey;
     border-radius: 10px;
 }
+ @media screen and (max-width:400px)
+ {
+    .container{
+        font-size:70px;
+        text-align: center;
+        
+    }
+ }
