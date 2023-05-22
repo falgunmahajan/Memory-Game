@@ -205,3 +205,44 @@ img {
         transform: translateX(5px);
     }
 }
+@media screen and (max-width:400px)
+{
+   .cards{
+       width:300px;
+       
+   }
+   img {
+    width: 60px;
+    height: 90px;
+}
+.card{
+    width:60px;
+    height:90px;
+}
+.front, .back{
+    width:60px;
+    height:90px;
+}
+.row{
+    width:300px;
+    
+}
+.box {
+    margin:90px;
+}
+@keyframes font {
+    from{
+        font-size: 80px;
+    } 
+    to{
+        font-size:0px;
+    }
+}
+.status{
+    font-size:70px;
+    
+}
+.score,span{
+    font-size:50px;
+}
+}
