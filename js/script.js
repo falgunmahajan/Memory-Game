@@ -147,7 +147,8 @@ function ifMatch(img1, img2) {
         matchedCard++;
         if (matchedCard == (cards.length) / 2 && timeLeft > 0) {
            console.log(matchedCard)
-           Userscore = maxScore-(movePenalty*move+(maxTime-timeLeft)*timePenalty);
+           // calculate score
+           Userscore = maxScore-(movePenalty*move+(maxTime-timeLeft)*timePenalty); 
             winSound.play();
             setTimeout(() => {
                 win.classList.remove("notVisible");
