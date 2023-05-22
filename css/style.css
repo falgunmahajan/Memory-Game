@@ -1,7 +1,4 @@
-body {
-    /* background-color: skyblue; */
-    background-image: url("/Images/image.jpg");
-}
+
 .visible
 {
     display:flex;
