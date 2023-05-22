@@ -208,7 +208,7 @@ img {
 @media screen and (max-width:400px)
 {
    .cards{
-       width:300px;
+       width:280px;
        
    }
    img {
@@ -244,5 +244,11 @@ img {
 }
 .score,span{
     font-size:50px;
+}
+.quittag{
+    font-size:40px;
+}
+.buttons{
+    width:300px;
 }
 }
