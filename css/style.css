@@ -72,6 +72,7 @@ span{
     z-index:100;
 }
 .btns {
+    user-select: none;
     font-size: 30px;
     width: 120px;
     height: 50px;
@@ -164,6 +165,7 @@ img {
     width:90px;
     height:120px;
     pointer-events: none;
+    user-select: none;
     position:absolute;
     transition:transform 0.08s linear;  
 }

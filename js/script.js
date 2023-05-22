@@ -18,13 +18,13 @@ let cancel=document.querySelector(".cancel");
 
 
 // initialize audio
-let matchSound=new Audio("/Sounds/card match.mp3");
-let noMatchSound=new Audio("/Sounds/buzz.mp3");
-let clickSound=new Audio("/Sounds/click.mp3");
-let startSound=new Audio("/Sounds/game Start.mp3");
-let shuffleSound= new Audio("/Sounds/shuffle.mp3");
-let winSound=new Audio("/Sounds/WINNER Sound Effect--(MP3_70K).mp3");
-let overSound=new Audio("/Sounds/game over.mp3");
+let matchSound=new Audio("Sounds/card match.mp3");
+let noMatchSound=new Audio("Sounds/buzz.mp3");
+let clickSound=new Audio("Sounds/click.mp3");
+let startSound=new Audio("Sounds/game Start.mp3");
+let shuffleSound= new Audio("Sounds/shuffle.mp3");
+let winSound=new Audio("Sounds/WINNER Sound Effect--(MP3_70K).mp3");
+let overSound=new Audio("Sounds/game over.mp3");
 
 
 
