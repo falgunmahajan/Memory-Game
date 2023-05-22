@@ -1,0 +1,24 @@
+body{
+    background-image:url("/Images/image.webp")
+}
+.container{
+   height:100vh;
+    font-size:200px;
+    color:red;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+.start
+{
+    font-size:30px;
+    width:120px;
+    height:80px;
+    padding:20px;
+    margin:90px;
+    
+    background-color:hotpink;
+    box-shadow: 3px 5px grey;
+    border-radius: 10px;
+}
