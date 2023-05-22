@@ -2,6 +2,7 @@
 .visible
 {
     display:flex;
+    color:deeppink;
     justify-content: center;
     align-items:center;
     position:fixed;
@@ -30,7 +31,8 @@ span{
 .score
 {
     font-size: 100px;
-    background-color:yellow;
+    /* color:; */
+    background-color:orange;
 }
 .new
 {
@@ -39,9 +41,10 @@ span{
     height:50px;
     margin:10px;
     border-radius: 5px;
-    background-color:lime;
+    background-color:greenyellow;
 }
 .status{
+    color:deeppink;    
     font-size:200px;
     display:flex;
     flex-direction: column;
@@ -57,7 +60,7 @@ span{
 .quittag{
     font-size:100px;
     display:none;
-    
+    color: deeppink;
     flex-direction: column;
     justify-content: center;
     align-items:center;
@@ -221,7 +224,7 @@ img {
     height:90px;
 }
 .row{
-    width:300px;
+    width:320px;
     
 }
 .box {
@@ -229,21 +232,21 @@ img {
 }
 @keyframes font {
     from{
-        font-size: 80px;
+        font-size:60px;
     } 
     to{
         font-size:0px;
     }
 }
 .status{
-    font-size:70px;
+    font-size:60px;
     
 }
 .score,span{
-    font-size:50px;
+    font-size:40px;
 }
 .quittag{
-    font-size:40px;
+    font-size:30px;
 }
 .buttons{
     width:300px;
